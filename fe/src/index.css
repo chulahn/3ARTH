@@ -17,3 +17,6 @@ code {
   top: 30vh;
   position: relative;
 }
+.img {
+  max-height: 150px;
+}

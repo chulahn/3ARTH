@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Canvas from './Canvas'
+import Canvas from './Canvas';
+import earth from "./earth.png";
 
 
 import React, { useCallback, useEffect, useState } from "react";
@@ -93,6 +94,7 @@ function Custom() {
   }
   return <div className="mainDiv">
     <h1>3ARTH</h1>
+    <img className="img" src={earth}></img><br/>
   Hello, submit a file you want to create a world from.<br/>
     <input type="file" name="file" onChange={changeHandler} /><br/>
     Address to send NFT to: <input type="text" id="polyAddress" placeholder="Polygon Address" /><br/>
